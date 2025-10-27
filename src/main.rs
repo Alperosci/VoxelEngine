@@ -84,16 +84,15 @@ fn main() {
             for j in 0..voxels[i].len() {
                 for k in 0..voxels[i][j].len() {
                     if voxels[i][j][k] {
-                        // voxel aktifse kırmızı kutu çiz
                         d3.draw_cube(
-                            Vector3::new(i as f32 * 2.0, j as f32 * 2.0, k as f32 * 2.0),
+                            Vector3::new(i as f32 * 1.5, j as f32 * 1.5, k as f32 * 1.5),
                             1.5,
                             1.5,
                             1.5,
                             Color::RED,
                         );
                         d3.draw_cube_wires(
-                            Vector3::new(i as f32 * 2.0, j as f32 * 2.0, k as f32 * 2.0),
+                            Vector3::new(i as f32 * 1.5, j as f32 * 1.5, k as f32 * 1.5),
                             1.5,
                             1.5,
                             1.5,
