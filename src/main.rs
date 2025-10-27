@@ -15,28 +15,28 @@ fn main() {
 
     voxels = vec![
         vec![
-            vec![true, false, true, false],
-            vec![false, true, false, true],
-            vec![true, false, true, false],
-            vec![false, true, false, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
         ],
         vec![
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
         ],
         vec![
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
         ],
         vec![
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
-            vec![false, false, false, false],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
+            vec![true, true, true, true],
         ],
     ];
 
