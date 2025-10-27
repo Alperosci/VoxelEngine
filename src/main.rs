@@ -1,8 +1,5 @@
 use raylib::prelude::{CameraMode, *};
-use std::{
-    io::{self, Write},
-    sync::TryLockError,
-};
+use std::io::{self, Write};
 
 fn input(inp: &str) -> String {
     print!("{}", &inp);
